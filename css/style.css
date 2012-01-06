@@ -8,6 +8,93 @@
  `Y8bood8P'  o888o o888o `Y888""8o d888b    o888o `Y8bod8P' 8""888P'
 */
 
+@font-face { font-family: Frutiger; src: url('../font/Frutiger.ttf'); }
+@font-face { font-family: Collegia; src: url('../font/Collegia.ttf'); }
+@font-face { font-family: Wendy; src: url('../font/Wendy.otf'); }
+@font-face { font-family: Pico; src: url('../font/Pico.ttf'); }
+@font-face { font-family: Arista; src: url('../font/Arista.ttf'); }
+
+
 body {
-	background-image: url('../img/body-bg.png');
+	background-image: url('../img/tex-bg-body.png');
+	color: rgba(0, 0, 0, 0.3);
+	font: 18pt "Rockwell";
+	text-shadow: 1px 1px 1px #ffffff;
 }
+
+span { font-size: 24pt; }
+
+#content {
+	max-width: 780px;
+	margin: 0 auto;
+}
+
+#section-break {
+	width: 65px;
+	height: 30px;
+	background-image: url('../img/glyph-section-break.png');
+	margin: 20px auto;
+}
+
+#hr {
+	width: 600px;
+	height: 2px;
+	background-image: url('../img/glyph-hr.png');
+	opacity: 0.4;
+	margin: 20px auto;
+}
+/*=========================================================*/
+#header .inner { margin: 30px 0px 30px 30px; }
+#header .inner img {
+	float: left;
+	margin-right: 18pt;
+	display: block;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);	
+}
+#header .inner #img {
+	float: left;
+	position: relative;
+	left: 80px;
+	width: 80px;
+	height: 76px;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+}
+
+#header .inner span#greeting { color: #74a9d9; }
+#header .inner span#name { color: #f4632b; }
+/*=========================================================*/
+#main {
+	background-image: url('../img/tex-bg-main.png');
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+	-webkit-border-radius: 5px;
+}
+#main .inner { margin: 50px; }
+#main .inner span { font-size: 22pt; }
+#main .inner span#concordia { color:  #922338; }
+#main .inner span#mcgill { color: #dc2420; }
+#main .inner span#amber { font-size: 50pt; opacity: 0.2; }
+#main .inner span#montreal { font-family: Times; color: #ef3e33; }
+#main .inner span#forker { font-family: Collegia; color: #393939; }
+#main .inner span#photographer, #main .inner span#r { font-family: Frutiger; color: #0063dc; }
+#main .inner span#r { color: #ff0084; }
+#main .inner span#dribbble { font-family: Wendy; color: #ea4c89; }
+#main .inner span#canon { font-family: Canon; color: #d40d14; }
+#main .inner span#apple { font-family: Helvetica; color: #000; }
+#main .inner span#travel { font-size: 14pt; }
+#main .inner span#facebook { font-family: Lucida Grande; color: #3b5998; font-weight: bold; }
+#main .inner span#arista { font-family: Arista; color: #9ae4e8; }
+#main .inner span#pico { font-family: Pico; color: #9ae4e8; }
+/*=========================================================*/
+#footer { padding-bottom: 15px; }
+#footer .inner { text-align: center; }
+#footer a img { opacity: 0.4; }
+#footer a img:hover { opacity: 0.8; }
+#footer p { font-family: Helvetica; font-size: 10px; }
+#footer #hr { margin: 5px auto; }

@@ -30,7 +30,7 @@ span { font-size: 24pt; }
 }
 
 #hr {
-	width: 600px;
+	width: 70%;
 	height: 2px;
 	background-image: url('../img/glyph-hr.png');
 	opacity: 0.4;
@@ -77,9 +77,9 @@ span { font-size: 24pt; }
 #main .inner img#montreal { padding-bottom: 10px; }
 #main .inner img#forker { padding-bottom: 10px; }
 #main .inner img#photographer { padding-bottom: 5px; }
-#main .inner img#drafted { padding-bottom: 4px; }
-#main .inner img#lurk { padding-bottom: 10px; }
-#main .inner img#tweet { padding-bottom: 10px; }
+#main .inner img#drafted { padding-bottom: 5px; }
+#main .inner img#lurk { padding-bottom: 12px; }
+#main .inner img#tweet { padding-bottom: 9px; }
 
 #main .inner span#travel { font-size: 14pt; }
 /*=========================================================*/

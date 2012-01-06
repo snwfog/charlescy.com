@@ -8,13 +8,6 @@
  `Y8bood8P'  o888o o888o `Y888""8o d888b    o888o `Y8bod8P' 8""888P'
 */
 
-@font-face { font-family: Frutiger; src: url('../font/Frutiger.ttf'); }
-@font-face { font-family: Collegia; src: url('../font/Collegia.ttf'); }
-@font-face { font-family: Wendy; src: url('../font/Wendy.otf'); }
-@font-face { font-family: Pico; src: url('../font/Pico.ttf'); }
-@font-face { font-family: Arista; src: url('../font/Arista.ttf'); }
-
-
 body {
 	background-image: url('../img/tex-bg-body.png');
 	color: rgba(0, 0, 0, 0.3);
@@ -80,17 +73,15 @@ span { font-size: 24pt; }
 #main .inner span#concordia { color:  #922338; }
 #main .inner span#mcgill { color: #dc2420; }
 #main .inner span#amber { font-size: 50pt; opacity: 0.2; }
-#main .inner span#montreal { font-family: Times; color: #ef3e33; }
-#main .inner span#forker { font-family: Collegia; color: #393939; }
-#main .inner span#photographer, #main .inner span#r { font-family: Frutiger; color: #0063dc; }
-#main .inner span#r { color: #ff0084; }
-#main .inner span#dribbble { font-family: Wendy; color: #ea4c89; }
-#main .inner span#canon { font-family: Canon; color: #d40d14; }
-#main .inner span#apple { font-family: Helvetica; color: #000; }
+
+#main .inner img#montreal { padding-bottom: 10px; }
+#main .inner img#forker { padding-bottom: 10px; }
+#main .inner img#photographer { padding-bottom: 5px; }
+#main .inner img#drafted { padding-bottom: 4px; }
+#main .inner img#lurk { padding-bottom: 10px; }
+#main .inner img#tweet { padding-bottom: 10px; }
+
 #main .inner span#travel { font-size: 14pt; }
-#main .inner span#facebook { font-family: Lucida Grande; color: #3b5998; font-weight: bold; }
-#main .inner span#arista { font-family: Arista; color: #9ae4e8; }
-#main .inner span#pico { font-family: Pico; color: #9ae4e8; }
 /*=========================================================*/
 #footer { padding-bottom: 15px; }
 #footer .inner { text-align: center; }

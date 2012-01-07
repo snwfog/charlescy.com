@@ -40,27 +40,19 @@ span { font-size: 24pt; }
 }
 /*=========================================================*/
 #header .inner { padding: 30px 0px 30px 0px; overflow: hidden; }
-#header .inner img {
-	float: left;
-	position: relative;
-	margin-right: 30px;
-	display: block;
-	-webkit-border-radius: 3px;
-	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);	
+#header .inner div#avatar {
+	background: url('../img/avatar-160px.png');
+	background-size: 80px 80px;
+	width: 80px; 
+	height: 80px; 
+ 	-webkit-border-radius: 3px;
+ 	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+ 	display: block;
+ 	margin-right: 30px;
+ 	position: relative;
+ 	float: left;
 }
 #header .inner p { float: left; }
-
-/*#header .inner #img {
-	position: relative;
-	top: 80px;
-	left: 0px;
-	width: 80px;
-	height: 76px;
-	border-top: 1px solid rgba(255, 255, 255, 0.5);
-	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
-	-webkit-border-radius: 3px;
-}*/
-
 #header .inner span#greeting { color: #74a9d9; }
 #header .inner span#name { color: #f4632b; }
 /*=========================================================*/
@@ -78,7 +70,8 @@ span { font-size: 24pt; }
 #main .inner span#concordia { color:  #922338; }
 #main .inner span#mcgill { color: #dc2420; }
 #main .inner span#amber { font-size: 50pt; opacity: 0.2; }
-#main .inner img#montreal { padding-bottom: 10px; }
+
+#main .inner img#montreal { padding-bottom: 14px; }
 #main .inner img#forker { padding-bottom: 13px; }
 #main .inner img#photographer { padding-bottom: 8px; }
 #main .inner img#drafted { padding-bottom: 8px; }
@@ -132,72 +125,8 @@ http://mattwilcox.net/archive/entry/id/1048/
 
 #footer p { font-family: Helvetica; font-size: 10px; }
 #footer #hr { margin: 5px auto; }
-
-
-/*#footer #say-hi-to-me {
-	color: rgba(255, 255, 255, 0.1);
-	font-size: 14pt;
-	text-shadow: none;
-	background-color: rgba(0, 0, 0, 0.15);
-	padding-top: 0px;
-	padding-bottom: 8px;
-	margin: 10px auto 0px auto;
-	width: 420px;
-	-webkit-border-radius: 5px;
-}*/
 /*=========================================================*/
 @font-face { font-family: Rochebon; src: url('../type/Rochebon.eot'); src: url('../type/Rochebon.ttf') format('truetype'); }
-/*=========================================================*/
-/*#say-hi {
-	text-decoration: none;
-	font-size: 16pt;
-	border: none;
-	width: 110px;
-	color: rgba(255, 255, 255, 1);
-	background: rgba(186, 143, 246, 1);
-	background-image:
-		-webkit-linear-gradient(rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0.50) 2%, rgba(255, 255, 255, 0) 4%);
-
-	padding: 3px 10px;
-	-webkit-box-shadow:
-		0px 2px 2px rgba(0, 0, 0, 0.25), /* Outter bottom shadow *!/
-		inset 0px 0px 9px rgba(0, 0, 0, 0.3), /* Inner shadowgradient *!/
-		1px 1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		-1px -1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		1px -1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		-1px 1px 0px rgba(136, 97, 198, 1); /* Outter stroke *!/
-	-webkit-border-radius: 2px;
-	text-shadow: 
-		0px -1px 1px rgba(0, 0, 0, 0.8);
-	margin: 0px auto;
-	
-}
-
-#say-hi:hover {
-	-webkit-box-shadow:
-		0px 2px 2px rgba(0, 0, 0, 0.25), /* Outter bottom shadow *!/
-		inset 0px 0px 9px rgba(0, 0, 0, 0.3), /* Inner shadowgradient *!/
-		1px 1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		-1px -1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		1px -1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		-1px 1px 0px rgba(136, 97, 198, 1), /* Outter stroke *!/
-		inset 0px 0px 12px rgba(219, 195, 255, 0.45); /* On hover highlighted glow *!/
-	background-image:
-		-webkit-linear-gradient(rgba(255, 255, 255, 0) 1%, rgba(219, 195, 255, 1) 2%, rgba(255, 255, 255, 0) 4%); /* Inner highlight shadowgradient *!/
-}
-
-#say-hi:active {
-	padding: 3px 10px;
-	background: rgba(172, 132, 228, 1.0000);
-	-webkit-box-shadow: 
-		inset 0px 2px 4px rgba(0, 0, 0, 0.1),
-		1px 1px 0px rgba(122, 94, 162, 1), /* Outter stroke *!/
-		-1px -1px 0px rgba(122, 94, 162, 1), /* Outter stroke *!/
-		1px -1px 0px rgba(122, 94, 162, 1), /* Outter stroke *!/
-		-1px 1px 0px rgba(122, 94, 162, 1), /* Outter stroke *!/
-		0px 2px rgba(255, 255, 255, 0.2); /* White bottom highlight *!/
-		
-}*/
 /*=========================================================*/
 @media screen and (max-width: 780px) {
 	#header .inner { padding-left: 30px; }

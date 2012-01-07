@@ -46,7 +46,9 @@ span { font-size: 24pt; }
 	width: 80px; 
 	height: 80px; 
  	-webkit-border-radius: 3px;
+ 	-moz-border-radius: 3px;
  	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+ 	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
  	display: block;
  	margin-right: 30px;
  	position: relative;
@@ -63,7 +65,9 @@ span { font-size: 24pt; }
 	color: rgba(0, 0, 0, 0.3);
 	text-align: center;
 	-webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 #main .inner { margin: 50px; position: relative; }
 #main .inner span { font-size: 22pt; }
@@ -90,6 +94,7 @@ span { font-size: 24pt; }
 	opacity: 0.2; 
 	position: fixed;
 	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
 }
 #main .inner a#go-top:hover {
 	opacity: 0.8;	
@@ -106,12 +111,13 @@ http://mattwilcox.net/archive/entry/id/1048/
 #footer .inner div#glyph-wrap { position: relative; margin: 8px auto; width: 195px; overflow: hidden; }
 #footer .inner ul { list-style: none outside none; }
 #footer .inner ul li { float: left; margin: 3px; }
-#footer .inner a div { 
+#footer .inner div#glyph-wrap ul li a div { 
 	width: 18px; 
 	height: 18px; 
 	background-size: 18px 18px; 
 	opacity: 0.4; 
 	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
 }
 #footer .inner a div:hover { opacity: 0.8; }
 #footer .inner a div#glyph-resume { background: url('../img/glyph-resume2x.png'); }

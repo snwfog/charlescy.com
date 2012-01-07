@@ -7,6 +7,14 @@
 `88b    ooo   888   888  d8(  888   888      888  888    .o o.  )88b   
  `Y8bood8P'  o888o o888o `Y888""8o d888b    o888o `Y8bod8P' 8""888P'
 */
+@media screen and (max-width: 780px) {
+	#header .inner img { margin-left: 18pt; }
+	#header .inner #img { margin-left: 18pt; }
+}
+
+@media screen and (max-width: 320px) {
+	body { color: rgba(0, 0, 0, 0.5); }
+}
 
 body {
 	background-image: url('../img/tex-bg-body.png');
@@ -37,7 +45,8 @@ span { font-size: 24pt; }
 	margin: 20px auto;
 }
 /*=========================================================*/
-#header .inner { margin: 30px 0px 30px 30px; }
+#header .inner { margin: 30px 0px; margin-top: -55px;
+}
 #header .inner img {
 	float: left;
 	margin-right: 18pt;
@@ -45,10 +54,11 @@ span { font-size: 24pt; }
 	-webkit-border-radius: 3px;
 	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);	
 }
+
 #header .inner #img {
-	float: left;
 	position: relative;
-	left: 80px;
+	top: 80px;
+	left: 0px;
 	width: 80px;
 	height: 76px;
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -89,5 +99,5 @@ span { font-size: 24pt; }
 #footer a img:hover { opacity: 0.8; }
 #footer p { font-family: Helvetica; font-size: 10px; }
 #footer #hr { margin: 5px auto; }
-
+/*=========================================================*/
 @font-face { font-family: Rochebon; src: url('../type/Rochebon.eot'); src: url('../type/Rochebon.ttf') format('truetype'); }

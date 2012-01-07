@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="css/reset.css"  />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="icon" type="image/png" href="img/favicon.png" />
+	<!--More information regarding ios capable web-app
+		http://gigaom.com/apple/how-to-create-ios-device-home-screen-icons-for-web-sites/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheAppleBlog+%28GigaOM%3A+Apple%29
+		http://www.luscarpa.com/development/make-your-website-an-iphone-web-application/
+	-->
 	<link rel="apple-touch-icon-precomposed" href="img/icon-114px-s.png" />
 	
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
@@ -92,20 +96,24 @@
 			<p>* Thank you! *</p>
 			<div id="section-break"></div>
 			<!--<p><div id="say-hi">Say hai!</div></p>-->
-			<a id="go-top" href="#top"><img src="img/glyph-top.png" alt="Go back to top!" /></a>
+			<a id="go-top" href="#top"></a>
 		</div>
 	</div>
 	<div id="footer">
 		<div class="inner">
 			<!--<p><div id="say-hi-to-me">Say hai to me on these social media!</div></p>-->
-			<a href="docs/resume.pdf"><img src="img/glyph-resume.png" alt="Hire me!" /></a>
-			<a href="http://www.flickr.com/photos/snwfog"><img src="img/glyph-flickr.png" alt="Checkout my photos!" /></a>
-			<a href="https://twitter.com/#!/snwfog"><img src="img/glyph-twitter.png" alt="Follow me!" /></a>
-			<a href="https://github.com/snwfog"><img src="img/glyph-github.png" alt="Fork me!" /></a>
-			<a href="http://dribbble.com/snwfog"><img src="img/glyph-dribbble.png" alt="Draft me!" /></a>
-			<a href=""><img src="img/glyph-tumblr.png" alt="" /></a>
-			<a href="mailto:charles@charlescy.com"><img src="img/glyph-facebook.png" alt="Say hai!" /></a>
-			<a href="https://foursquare.com/snwfog"><img src="img/glyph-location.png" alt="Stalk me!" /></a>
+			<div id="glyph-wrap">
+				<ul>
+					<li><a href="docs/resume.pdf"><div id="glyph-resume"></div></a></li>
+					<li><a href="http://www.flickr.com/photos/snwfog"><div id="glyph-flickr"></div></a></li>
+					<li><a href="https://twitter.com/#!/snwfog"><div id="glyph-twitter"></div></a></li>
+					<li><a href="https://github.com/snwfog"><div id="glyph-github"></div></a></li>
+					<li><a href="http://dribbble.com/snwfog"><div id="glyph-dribbble"></div></a></li>
+					<li><a href=""><div id="glyph-tumblr"></div></a></li>
+					<li><a href="mailto:charles@charlescy.com"><div id="glyph-facebook"></div></a></li>
+					<li><a href="https://foursquare.com/snwfog"><div id="glyph-location"></div></a></li>
+				</ul>
+			</div>
 			<div id="hr"></div>
 			<p id="en">This site was built with Love on a 13' MacBook Pro in 2012. Designed and inspired by the sweet and lovely Orange.</p>
 			<p id="jp">このサイトは、2012年には13'MacBook Proの上で愛をこめて造られた。設計されており、甘く美しいオレンジに触発。</p>

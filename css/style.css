@@ -88,14 +88,22 @@ span { font-size: 24pt; }
 
 #main .inner span#travel { font-size: 14pt; }
 #main .inner a#go-top {
-	position: absolute;
-	left: -40px;
-	opacity: 0.4;
+	position: fixed;
+	bottom: 3px;
+	opacity: 0.2;
+	margin-left: -35px;
+	-webkit-transition: 0.5s;
+}
+#main .inner a#go-top:hover {
+	opacity: 0.8;	
 }
 /*=========================================================*/
 #footer { padding-bottom: 15px; }
 #footer .inner { text-align: center; }
-#footer a img { opacity: 0.4; }
+#footer a img { 
+	opacity: 0.4;
+	-webkit-transition: 0.5s;	
+}
 #footer a img:hover { opacity: 0.8; }
 #footer p { font-family: Helvetica; font-size: 10px; }
 #footer #hr { margin: 5px auto; }

@@ -73,18 +73,17 @@ span { font-size: 24pt; }
 	-webkit-border-radius: 5px;
 }
 #main .inner { margin: 50px; position: relative; }
-#main .inner span { font-size: 22pt;
-}
+#main .inner span { font-size: 22pt; }
 #main .inner span#concordia { color:  #922338; }
 #main .inner span#mcgill { color: #dc2420; }
 #main .inner span#amber { font-size: 50pt; opacity: 0.2; }
-
 #main .inner img#montreal { padding-bottom: 10px; }
-#main .inner img#forker { padding-bottom: 10px; }
-#main .inner img#photographer { padding-bottom: 5px; }
-#main .inner img#drafted { padding-bottom: 5px; }
-#main .inner img#lurk { padding-bottom: 12px; }
-#main .inner img#tweet { padding-bottom: 9px; }
+#main .inner img#forker { padding-bottom: 13px; }
+#main .inner img#photographer { padding-bottom: 8px; }
+#main .inner img#drafted { padding-bottom: 8px; }
+#main .inner img#lurk { padding-bottom: 15px; }
+#main .inner img#tweet { padding-bottom: 12px; }
+#main .inner img { padding-top: 5px; }
 
 #main .inner span#travel { font-size: 14pt; }
 #main .inner a#go-top {

@@ -7,14 +7,7 @@
 `88b    ooo   888   888  d8(  888   888      888  888    .o o.  )88b   
  `Y8bood8P'  o888o o888o `Y888""8o d888b    o888o `Y8bod8P' 8""888P'
 */
-@media screen and (max-width: 780px) {
-	#header .inner img { margin-left: 18pt; }
-	#header .inner #img { margin-left: 18pt; }
-}
 
-@media screen and (max-width: 320px) {
-	body { color: rgba(0, 0, 0, 0.5); }
-}
 
 body {
 	background-image: url('../img/tex-bg-body.png');
@@ -45,16 +38,18 @@ span { font-size: 24pt; }
 	margin: 20px auto;
 }
 /*=========================================================*/
-#header .inner { margin: 30px 0px; margin-top: -55px; }
+#header .inner { padding: 30px 0px 30px 0px; overflow: hidden; }
 #header .inner img {
 	float: left;
-	margin-right: 18pt;
+	position: relative;
+	margin-right: 30px;
 	display: block;
 	-webkit-border-radius: 3px;
 	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);	
 }
+#header .inner p { float: left; }
 
-#header .inner #img {
+/*#header .inner #img {
 	position: relative;
 	top: 80px;
 	left: 0px;
@@ -63,7 +58,7 @@ span { font-size: 24pt; }
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	border-bottom: 3px solid rgba(0, 0, 0, 0.5);
 	-webkit-border-radius: 3px;
-}
+}*/
 
 #header .inner span#greeting { color: #74a9d9; }
 #header .inner span#name { color: #f4632b; }
@@ -161,4 +156,17 @@ span { font-size: 24pt; }
 		-1px 1px 0px rgba(122, 94, 162, 1), /* Outter stroke */
 		0px 2px rgba(255, 255, 255, 0.2); /* White bottom highlight */
 		
+}
+/*=========================================================*/
+@media screen and (max-width: 780px) {
+	#header .inner { padding-left: 30px; }
+}
+
+@media screen and (max-width: 320px) {
+	body { color: rgba(0, 0, 0, 0.5); }
+	#header .inner { padding: 10px; }
+	#header .inner p { height: 80px; bottom: -10px; position: relative; }
+	#header .inner img { margin-right: 10px; }
+	#header .inner span#greeting { font-size: 20pt; }
+	#header .inner span#name { font-size: 20pt; }
 }

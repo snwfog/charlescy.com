@@ -11,7 +11,7 @@
 body {
 	background-image: url('../img/tex-bg-body.png');
 	color: rgba(0, 0, 0, 0.3);
-	font: 18pt "Rockwell";
+	font: 18pt "Rockwell", "Rochebon", "courier", sans-serif;
 	text-shadow: 1px 1px 1px #ffffff;
 }
 
@@ -89,3 +89,5 @@ span { font-size: 24pt; }
 #footer a img:hover { opacity: 0.8; }
 #footer p { font-family: Helvetica; font-size: 10px; }
 #footer #hr { margin: 5px auto; }
+
+@font-face { font-family: Rochebon; src: url('../type/Rochebon.eot'); src: url('../type/Rochebon.ttf') format('truetype'); }

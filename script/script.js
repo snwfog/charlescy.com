@@ -1,4 +1,6 @@
 // Scroll to top
+// from http://webdesignerwall.com/tutorials/animated-scroll-to-top
+// or here http://www.net-kit.com/7-scroll-to-top-jquery-solutions/
 $(document).ready(function() {
 	// hide #go-top at initial position
 	$('#go-top').hide();

@@ -136,7 +136,7 @@ http://mattwilcox.net/archive/entry/id/1048/
 	body { color: rgba(0, 0, 0, 0.5); }
 	#header .inner { padding: 10px; }
 	#header .inner p { height: 80px; bottom: -10px; position: relative; }
-	#header .inner img { margin-right: 10px; }
+	#header .inner div#avatar { margin-right: 10px; }
 	#header .inner span#greeting { font-size: 20pt; }
 	#header .inner span#name { font-size: 20pt; }
 }

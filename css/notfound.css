@@ -1,5 +1,5 @@
 body {
-	background-image: url('../img/meow-2.jpg');
+	background-image: url('../img/meow.png');
 	color: rgba(255, 255, 255, 1);
 	font: 26pt "Rockwell", "Rochebon", "courier", sans-serif;
 	text-rendering: optimizeLegibility;
@@ -8,7 +8,25 @@ body {
 h1 {
 	position: fixed;
 	top: 50px;
-	right: 50px;
-	text-align: right;
+	left: 50px;
+	text-align: left;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		background-image: url('../img/meow-2.png');
+		background-size: 100% 100%;
+		color: rgba(255, 255, 255, 1);
+		font: 18pt "Rockwell", "Rochebon", "courier", sans-serif;
+		text-rendering: optimizeLegibility;
+	}
+	
+	h1 {
+		position: fixed;
+		top: 20px;
+		right: 20px;
+		text-align: right;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+	}
 }

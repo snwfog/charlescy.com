@@ -119,7 +119,7 @@ http://mattwilcox.net/archive/entry/id/1048/
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
 }
-#footer .inner a div:hover { opacity: 0.8; }
+#footer .inner div#glyph-wrap ul li a div:hover { opacity: 0.8; }
 #footer .inner a div#glyph-resume { background: url('../img/glyph-resume2x.png'); }
 #footer .inner a div#glyph-flickr { background: url('../img/glyph-flickr2x.png'); }
 #footer .inner a div#glyph-twitter { background: url('../img/glyph-twitter2x.png'); }

@@ -1,10 +1,10 @@
 /*
-  .oooooo.   oooo                           oooo                    
- d8P'  `Y8b  `888                           `888                    
-888           888 .oo.    .oooo.   oooo d8b  888   .ooooo.   .oooo.o  
-888           888P"Y88b  `P  )88b  `888""8P  888  d88' `88b d88(  "8  
-888           888   888   .oP"888   888      888  888ooo888 `"Y88b.  
-`88b    ooo   888   888  d8(  888   888      888  888    .o o.  )88b   
+  .oooooo.   oooo                           oooo
+ d8P'  `Y8b  `888                           `888
+888           888 .oo.    .oooo.   oooo d8b  888   .ooooo.   .oooo.o
+888           888P"Y88b  `P  )88b  `888""8P  888  d88' `88b d88(  "8
+888           888   888   .oP"888   888      888  888ooo888 `"Y88b.
+`88b    ooo   888   888  d8(  888   888      888  888    .o o.  )88b
  `Y8bood8P'  o888o o888o `Y888""8o d888b    o888o `Y8bod8P' 8""888P'
 */
 
@@ -43,8 +43,8 @@ span { font-size: 24pt; }
 #header .inner div#avatar {
 	background: url('../img/avatar-160px.png');
 	background-size: 80px 80px;
-	width: 80px; 
-	height: 80px; 
+	width: 80px;
+	height: 80px;
  	-webkit-border-radius: 3px;
  	-moz-border-radius: 3px;
  	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
@@ -71,8 +71,17 @@ span { font-size: 24pt; }
 }
 #main .inner { margin: 50px; position: relative; }
 #main .inner span { font-size: 22pt; }
+/*=========================================================*/
+/* Typographic ID's                                        */
+/*=========================================================*/
 #main .inner span#concordia { color:  #922338; }
 #main .inner span#mcgill { color: #dc2420; }
+#main .inner span#photographer { color: #1063dc }
+#main .inner span#grapher { color: #fc1684 }
+#main .inner span#forker { color: #393939 }
+#main .inner span#tweet { color: #9be2e5 }
+#main .inner span#lurk { color: #3b5a96 }
+#main .inner span#drafted { color: #e84f89 }
 #main .inner span#amber { font-size: 50pt; opacity: 0.2; }
 
 #main .inner img#montreal { padding-bottom: 14px; }
@@ -89,15 +98,15 @@ span { font-size: 24pt; }
 	background-size: 18px 18px;
 	bottom: 3px;
 	margin-left: -35px;
-	width: 18px; 
-	height: 18px; 
-	opacity: 0.2; 
+	width: 18px;
+	height: 18px;
+	opacity: 0.2;
 	position: fixed;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
 }
 #main .inner a#go-top:hover {
-	opacity: 0.8;	
+	opacity: 0.8;
 }
 /*=========================================================*/
 #footer { padding-bottom: 15px; }
@@ -111,11 +120,11 @@ http://mattwilcox.net/archive/entry/id/1048/
 #footer .inner div#glyph-wrap { position: relative; margin: 8px auto; width: 195px; overflow: hidden; }
 #footer .inner ul { list-style: none outside none; }
 #footer .inner ul li { float: left; margin: 3px; }
-#footer .inner div#glyph-wrap ul li a div { 
-	width: 18px; 
-	height: 18px; 
-	background-size: 18px 18px; 
-	opacity: 0.4; 
+#footer .inner div#glyph-wrap ul li a div {
+	width: 18px;
+	height: 18px;
+	background-size: 18px 18px;
+	opacity: 0.4;
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
 }
@@ -131,6 +140,7 @@ http://mattwilcox.net/archive/entry/id/1048/
 
 #footer p { font-family: Helvetica; font-size: 10px; }
 #footer #hr { margin: 5px auto; }
+
 /*=========================================================*/
 @font-face { font-family: Rochebon; src: url('../type/Rochebon.eot'); src: url('../type/Rochebon.ttf') format('truetype'); }
 /*=========================================================*/
